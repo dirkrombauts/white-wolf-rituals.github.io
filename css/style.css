@@ -1,0 +1,55 @@
+@font-face {
+font-family: 'Futura-Book';
+font-style: normal;
+font-weight: normal;
+src: local('Futura-Book'), url('Futura-Book.woff') format('woff');
+}
+
+body {
+    background-color: black;
+    color:white;
+    font-family:'Futura-Book',Futura, 'Trebuchet MS', Arial, sans-serif;
+    font-weight:normal;
+    font-size:42px;
+    text-align: center;
+}
+
+#logo{
+    /*height: 100px;*/
+    width: 250px;
+    margin-block-start: 2em;
+}
+
+h1{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-transform:uppercase;
+}
+
+p{
+    margin-block-start: 0;
+}
+
+p.elements {
+    margin-block-start: 2em;
+}
+p.contactData{
+    margin-block-start: 3em;
+}
+span.separator{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+a{
+    color: white;
+}
+
+p.impressum{
+    position: fixed;
+    top:0;
+    right:0;
+    color: gray;
+    margin:0.5em;
+    font-size:0.5em;
+}
