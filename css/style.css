@@ -102,3 +102,26 @@ div#werde-teil-des-wolfsrudels{
     text-align: left;
     padding: 1em;
 }
+
+p.button{
+    text-align: center;
+}
+a.button {
+    background-color: red;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+  }
+
+  a.button:hover {
+    background-color: #555;
+    cursor: pointer;
+  }
+  
+  a.button:active {
+    background-color: black;
+  }
+  
+  a.button:visited {
+    background-color: #ccc;
+  }
