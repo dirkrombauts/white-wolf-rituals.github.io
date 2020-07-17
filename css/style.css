@@ -57,12 +57,10 @@ a{
 }
 
 p.impressum{
-    position: fixed;
-    top:0;
-    right:0;
     color: gray;
     margin:0.5em;
-    font-size:0.5em;
+    font-size:0.3em;
+    margin-block-end: 1em;
 }
 
 div.details{
