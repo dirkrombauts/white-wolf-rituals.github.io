@@ -84,10 +84,17 @@ img.person{
     margin-bottom: 1em;
 }
 
-p.welcome
+div.welcome
 {
     text-align: left;
-    margin: 0.5em;
+    padding: 1em;
+    font-size: 24px;
+    margin:auto;
+    width: 28em;
+}
+
+div.welcome li {
+    font-style: italic;
 }
 
 div#werde-teil-des-wolfsrudels{
@@ -95,5 +102,3 @@ div#werde-teil-des-wolfsrudels{
     text-align: left;
     padding: 1em;
 }
-
-
