@@ -26,6 +26,11 @@ h1{
     text-transform:uppercase;
 }
 
+h2{
+    text-align: left;
+    margin: 2em;
+}
+
 p{
     margin-block-start: 0;
 }
@@ -35,6 +40,12 @@ p.elements {
 }
 p.contactData{
     margin-block-start: 3em;
+
+}
+p.text{
+    margin-block-start: 3em;
+    text-align: left;
+    margin: 2em;
 }
 span.separator{
     padding-left: 2em;
@@ -53,3 +64,38 @@ p.impressum{
     margin:0.5em;
     font-size:0.5em;
 }
+
+div.details{
+    column-count: 3;
+    font-size: 24px;
+    text-align: left;
+}
+
+div.details div{
+    padding: 1em;
+    break-inside: avoid;
+}
+
+div.details h2, div#werde-teil-des-wolfsrudels h2{
+    margin:0;
+    margin-bottom: 0.5em;
+}
+
+img.person{
+    width: 300px;
+    margin-bottom: 1em;
+}
+
+p.welcome
+{
+    text-align: left;
+    margin: 0.5em;
+}
+
+div#werde-teil-des-wolfsrudels{
+    font-size: 24px;
+    text-align: left;
+    padding: 1em;
+}
+
+
