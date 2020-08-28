@@ -126,3 +126,15 @@ a.button {
   a.button:visited {
     background-color: #ccc;
   }
+
+  p.event{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding: 1em;
+    background-color: white;
+    color: black;
+  }
+
+  p.event a{
+      color:black;
+  }
