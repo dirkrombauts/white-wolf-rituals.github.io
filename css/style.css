@@ -138,3 +138,16 @@ a.button {
   p.event a{
       color:black;
   }
+
+  div.cooperations{
+      font-size:24px;
+  }
+
+  div.cooperations li {
+      list-style: none;
+  }
+
+  
+  div.cooperations ul {
+    padding: 0;
+}
