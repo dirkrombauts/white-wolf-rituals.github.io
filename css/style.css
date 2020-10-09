@@ -6,6 +6,7 @@ src: local('Futura-Book'), url('Futura-Book.woff') format('woff');
 }
 
 body {
+    /*background-color: #123867;*/
     background-color: black;
     color:white;
     font-family:'Futura-Book',Futura, 'Trebuchet MS', Arial, sans-serif;
@@ -23,6 +24,10 @@ body {
 h1{
     margin-block-start: 0;
     margin-block-end: 0;
+    /*text-transform:uppercase;*/
+}
+
+h1.wwr{
     text-transform:uppercase;
 }
 
@@ -133,10 +138,12 @@ a.button {
     padding: 1em;
     background-color: white;
     color: black;
+/*    color: #123867;*/
   }
 
   p.event a{
-      color:black;
+    color: black;
+/*    color: #123867;*/
   }
 
   div.cooperations{
@@ -150,4 +157,10 @@ a.button {
   
   div.cooperations ul {
     padding: 0;
+}
+
+blockquote{
+    text-align: right;
+    margin-left: 30%;
+    border-left: dotted;
 }
