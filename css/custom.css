@@ -1,0 +1,43 @@
+#logo{
+    height: 50px;
+    margin-right:0.5em;
+}
+
+#banner
+{
+    margin-top: 2em;
+}
+
+h1.wwr{
+    text-transform:uppercase;
+}
+
+span.separator{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.logo
+{
+    font-size: 2em;
+}
+
+.logo h1{
+    font-size: 2em;
+}
+
+#introQuote{
+    margin-top: 1rem;
+}
+
+.contact-data p {
+    font-size: 2em;
+}
+
+h2{
+    margin-top: 2rem;
+}
+
+.jumbotron {
+    padding: 2rem 2rem;
+}
